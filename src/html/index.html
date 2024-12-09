@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catégories Handicap</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="container2">
+        <form id="handicapForm" onsubmit="redirectToPage(event)">
+            <div class="category" id="ma_ville">
+                <h3>Ma ville</h3>
+                <label for="ville">Entrez le nom de votre ville :</label>
+                <input type="text" id="ville" name="ville" placeholder="Ex : Paris">
+            </div>
+            <!-- <br>
+            <div class="category" id="poi">
+                <h3>Points d'intérêt (POI)</h3>
+                <label for="poi">Recherchez un point d'intérêt :</label>
+                <input type="text" id="poi" name="poi" placeholder="Ex : Musée, Parc">
+            </div>
+            <br> -->
+            <div class="category" id="submitSection">
+                <button type="submit">Rechercher</button>
+            </div>
+        </form>
+        
+        <script>
+            function redirectToPage(event) {
+                event.preventDefault(); // Empêche la soumission classique du formulaire
+                window.location.href = "manger_dormir.html"; // Redirige vers x.html
+            }
+        </script>
+        
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -5,61 +5,94 @@ body {
     background: #f4f4f4;
 }
 
-.container {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container2 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column; /* Affiche le formulaire verticalement */
+    align-items: center;
     justify-content: center;
-    margin: 20px;
-	margin-top: 17%;
+    margin: 20px auto;
+    margin-top: 12%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Limite la largeur du formulaire */
+}
+
+form {
+    width: 100%;
 }
 
 .category {
-    width: 30%;
-    margin: 10px;
-    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.category label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.category input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.category input:focus {
+    outline: none;
+    border-color: #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+#submitSection {
     text-align: center;
-    border-radius: 10px;
-    color: #fff;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.category:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-#visuel {
+#submitSection button {
     background: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
 }
 
-#moteur {
-    background: #50B965;
+#submitSection button:hover {
+    background: #357ABD;
+    transform: translateY(-2px);
 }
 
-#auditif {
-    background: #9855D4;
+#submitSection button:active {
+    transform: translateY(1px);
 }
 
-#psychique {
-    background: #2C3E50;
+/* Ajout d'une marge pour les titres */
+h3 {
+    margin-bottom: 10px;
+    color: #4A90E2;
+    text-align: center;
 }
 
-#intellectuelle {
-    background: #E67E22;
-}
-
-#invalidantes {
-    background: #E74C3C;
-}
-
-.category h3 {
-    margin: 0;
-    font-size: 18px;
-}
-
-.category p {
-    font-size: 14px;
-    margin-top: 10px;
+/* Pour s'assurer que tout reste bien centré sur petits écrans */
+@media (max-width: 768px) {
+    .container2 {
+        margin-top: 10%;
+        padding: 15px;
+    }
 }
