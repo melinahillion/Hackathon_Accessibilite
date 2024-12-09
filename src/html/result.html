@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/result.css">
+    <title>Carte avec API Google Maps</title>
+    <style>
+        #map {
+            height: 500px; /* Hauteur de la carte */
+            width: 100%;   /* Largeur de la carte */
+        }
+    </style>
+</head>
+<body>
+	<h1>Your result:</h1>
+    <h2>Carte Google Maps</h2>
+    <div id="map"></div>
+
+    <script>
+        function initMap() {
+            // Coordonnées du centre de la carte
+            const location = { lat: 48.8566, lng: 2.3522 }; // Paris
+            // Création de la carte
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12, // Niveau de zoom
+                center: location,
+            });
+            // Marqueur sur la carte
+            const marker = new google.maps.Marker({
+                position: location,
+                map: map,
+            });
+        }
+    </script>
+
+    <!-- Appel à l'API Google Maps avec votre clé -->
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+</body>
+</html>
