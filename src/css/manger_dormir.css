@@ -1,72 +1,72 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px;
-	margin-top: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+margin-top: 7%;
 }
 
 a
 {
-	text-decoration: none;
-	color:white;
+text-decoration: none;
+color:white;
 }
 .category {
-    width: 30%;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    color: #fff;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .category:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 #manger {
-    background: #4A90E2;
+  background: #4A90E2;
 }
 
 #dormir {
-    background: #50B965;
+  background: #50B965;
 }
 
 #auditif {
-    background: #9855D4;
+  background: #9855D4;
 }
 
 #psychique {
-    background: #2C3E50;
+  background: #2C3E50;
 }
 
 #intellectuelle {
-    background: #E67E22;
+  background: #E67E22;
 }
 
 #invalidantes {
-    background: #E74C3C;
+  background: #E74C3C;
 }
 
 .category h3 {
-    margin: 0;
-    font-size: 18px;
+  margin: 0;
+  font-size: 18px;
 }
 
 .category p {
-    font-size: 14px;
-    margin-top: 10px;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 
@@ -76,92 +76,148 @@ a
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 * {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 
 .selectnone {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: transparent;
 }
 
 button {
-  margin-top: 29%;
-  margin-left: 90%;
-  width: 150px;
-  height: 50px;
-  background: none;
-  border: 2px solid #932e3e;
-  border-radius: 50px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: .4s;
+margin-top: 29%;
+margin-left: 90%;
+width: 150px;
+height: 50px;
+background: none;
+border: 2px solid #932e3e;
+border-radius: 50px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: .4s;
 }
 
 button:hover {
-  width: 170px;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+width: 170px;
+box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
 }
 
 span, svg {
-  position: absolute;
-  color: #932e3e;
-  fill: transparent;
-  transition: .4s;
+position: absolute;
+color: #932e3e;
+fill: transparent;
+transition: .4s;
 }
 
 button:hover span {
-  transition: .4s;
-  font-size: 16px;
+transition: .4s;
+font-size: 16px;
 }
 
 button:focus {
-  outline: none;
-  box-shadow: none;
-  border: 2px solid transparent;
-  width: 50px;
-  border-left: 2px solid #932e3e;
-  border-bottom: 2px solid #932e3e;
-  animation: spin 2s 500ms forwards;
+outline: none;
+box-shadow: none;
+border: 2px solid transparent;
+width: 50px;
+border-left: 2px solid #932e3e;
+border-bottom: 2px solid #932e3e;
+animation: spin 2s 500ms forwards;
 }
 
 button:focus span {
-  color: transparent;
+color: transparent;
 }
 
 button:focus svg {
-  animation: check 500ms 2300ms forwards;
+animation: check 500ms 2300ms forwards;
 }
 
 @keyframes spin {
-  80% {
-    border: 2px solid transparent;
-    border-left: 2px solid #932e3e;
-  }
-  100% {
-    transform: rotate(1080deg);
-    border: 2px solid #932e3e;
-  }
+80% {
+  border: 2px solid transparent;
+  border-left: 2px solid #932e3e;
+}
+100% {
+  transform: rotate(1080deg);
+  border: 2px solid #932e3e;
+}
 }
 
 @keyframes check {
-  to {
-    fill: #932e3e;
-  }
+to {
+  fill: #932e3e;
+}
 }
 
 @keyframes circle {
-  to {
-    border: 2px solid #932e3e;
-  }
+to {
+  border: 2px solid #932e3e;
+}
+}
+
+
+
+
+form label {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+form input[type="checkbox"] {
+  appearance: none;
+  width: 40px;
+  height: 20px;
+  background: #ccc;
+  border-radius: 20px;
+  position: relative;
+  outline: none;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+form input[type="checkbox"]::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+form input[type="checkbox"]:checked {
+  background-color: #4fe24a;
+}
+
+form input[type="checkbox"]:checked::before {
+  transform: translateX(20px);
+}
+
+form input[type="checkbox"]:focus {
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.4);
+}
+
+
+#map {
+width: 100%;
+height: 500px;
 }
