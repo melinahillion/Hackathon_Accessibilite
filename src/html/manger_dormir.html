@@ -8,30 +8,47 @@
 </head>
 <body>
     <div class="container">
+        <!-- Catégorie : Où manger -->
         <div class="category" id="manger">
             <a href=""><h3>Où manger?</h3></a>
-            <!-- <p>personnes mal-voyantes et non-voyantes</p> -->
+            <form>
+                <label>
+                    <input type="checkbox" name="besoin_manger" value="menu_braille">
+                    Menu disponible en braille
+                </label><br>
+                <label>
+                    <input type="checkbox" name="besoin_manger" value="accessibilite_salle">
+                    Accessibilité pour fauteuil roulant
+                </label><br>
+                <label>
+                    <input type="checkbox" name="besoin_manger" value="proximite_parking">
+                    Proximité d'un parking accessible
+                </label>
+            </form>
         </div>
+
+        <!-- Catégorie : Où dormir -->
         <div class="category" id="dormir">
             <a href=""><h3>Où dormir?</h3></a>
-            <!-- <p>atteinte partielle ou totale de la motricité</p> -->
+            <form>
+                <label>
+                    <input type="checkbox" name="besoin_dormir" value="lit_pmr">
+                    Lit PMR (accessible aux personnes à mobilité réduite)
+                </label><br>
+                <label>
+                    <input type="checkbox" name="besoin_dormir" value="salle_bain_adaptee">
+                    Salle de bain adaptée
+                </label><br>
+                <label>
+                    <input type="checkbox" name="besoin_dormir" value="proche_gare">
+                    Proximité de la gare
+                </label><br>
+                <label>
+                    <input type="checkbox" name="besoin_dormir" value="ascenseur">
+                    Présence d'un ascenseur
+                </label>
+            </form>
         </div>
-        <!-- <div class="category" id="auditif">
-            <h3>HANDICAP AUDITIF</h3>
-            <p>personnes sourdes et malentendantes</p>
-        </div> -->
-        <!-- <div class="category" id="psychique">
-            <h3>HANDICAP PSYCHIQUE</h3>
-            <p>troubles mentaux, affectifs et émotionnels</p>
-        </div>
-        <div class="category" id="intellectuelle">
-            <h3>DÉFICIENCE INTELLECTUELLE</h3>
-            <p>privation des facultés intellectuelles</p>
-        </div>
-        <div class="category" id="invalidantes">
-            <h3>MALADIES INVALIDANTES</h3>
-            <p>maladies respiratoires, digestives, infectieuses</p>
-        </div> -->
     </div>
     <script src="script.js"></script>
 </body>
