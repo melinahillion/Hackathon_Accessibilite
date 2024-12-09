@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/result.css">
     <title>Carte avec API Google Maps</title>
     <style>
         /* General Reset */
@@ -72,6 +71,54 @@
             text-decoration: underline;
         }
 
+        /* Satisfaction Touch Bar */
+        .satisfaction {
+            max-width: 800px;
+            margin: 30px auto;
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .satisfaction h3 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #444;
+        }
+
+        .rating {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .rating button {
+            border: none;
+            background: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: transform 0.2s ease, color 0.3s ease;
+        }
+
+        .rating button:hover,
+        .rating button.selected {
+            color: #007BFF;
+            transform: scale(1.2);
+        }
+
+        .rating button:focus {
+            outline: none;
+        }
+
+        .feedback {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #444;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             header h1 {
@@ -84,6 +131,10 @@
 
             #map-container {
                 margin: 10px;
+            }
+
+            .satisfaction h3 {
+                font-size: 1rem;
             }
         }
     </style>
@@ -102,6 +153,54 @@
         <p>Phone number: <strong>+336.00.00.00.00</strong></p>
         <p>Website: <a href="https://www.google.com" target="_blank">www.google.com</a></p>
     </div>
+
+    <div class="satisfaction">
+        <h3>Êtes-vous satisfait du résultat ?</h3>
+        <div class="rating">
+            <button data-rating="1">😡</button>
+            <button data-rating="2">😞</button>
+            <button data-rating="3">😐</button>
+            <button data-rating="4">😊</button>
+            <button data-rating="5">😍</button>
+        </div>
+        <div class="feedback">Click on an emoji to rate!</div>
+    </div>
+
+    <script>
+        // Satisfaction touch bar functionality
+        const buttons = document.querySelectorAll('.rating button');
+        const feedback = document.querySelector('.feedback');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove selected class from all buttons
+                buttons.forEach(btn => btn.classList.remove('selected'));
+                // Add selected class to clicked button
+                button.classList.add('selected');
+                // Update feedback text
+                const rating = button.getAttribute('data-rating');
+                let message = '';
+                switch (rating) {
+                    case '1':
+                        message = "We're sorry to hear that! 😡";
+                        break;
+                    case '2':
+                        message = "We'll try to do better. 😞";
+                        break;
+                    case '3':
+                        message = "Thanks for your feedback. 😐";
+                        break;
+                    case '4':
+                        message = "We're glad you liked it! 😊";
+                        break;
+                    case '5':
+                        message = "Thank you! We're thrilled! 😍";
+                        break;
+                }
+                feedback.textContent = message;
+            });
+        });
+    </script>
 
     <script>
         function initMap() {
