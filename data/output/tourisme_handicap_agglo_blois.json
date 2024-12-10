@@ -1,0 +1,250 @@
+[
+    {
+        "name": "NOVOTEL BLOIS",
+        "filiere": "Hébergement ERP",
+        "activite": "Hôtel",
+        "ville": "BLOIS",
+        "adresse": "26 Avenue MAUNOURY",
+        "type_handicap": "AUDITIF;MENTAL;MOTEUR;VISUEL;"
+    },
+    {
+        "name": "CAMPING MUNICIPAL ONZAIN",
+        "filiere": "Hébergement ERP",
+        "activite": "Camping",
+        "ville": "ONZAIN",
+        "adresse": "RUE DES ROBINIERS",
+        "type_handicap": ""
+    },
+    {
+        "name": "Camping Nature Ferme Pédagogique de Prunay",
+        "filiere": "Hébergement ERP",
+        "activite": "Camping",
+        "ville": "SEILLAC",
+        "adresse": "SEILLAC",
+        "type_handicap": ""
+    },
+    {
+        "name": "Camping Sites et Paysages les Saules",
+        "filiere": "Hébergement ERP",
+        "activite": "Camping",
+        "ville": "CHEVERNY",
+        "adresse": "les saules",
+        "type_handicap": ""
+    },
+    {
+        "name": "Centre Aquatique Agl'eau",
+        "filiere": "Loisir",
+        "activite": "Etablissement de loisir",
+        "ville": "BLOIS",
+        "adresse": "30 avenue Pierre Brossolette",
+        "type_handicap": "AUDITIF;MENTAL;MOTEUR;VISUEL;"
+    },
+    {
+        "name": "AEROCOM MONTGOLFIERE",
+        "filiere": "Loisir",
+        "activite": "Etablissement de loisir",
+        "ville": "LES MONTILS",
+        "adresse": "7 rue de l'Artouillat",
+        "type_handicap": "AUDITIF;MENTAL;MOTEUR;VISUEL;"
+    },
+    {
+        "name": "LOISIRS  LOIRE VALLEY - TIR A L'ARC",
+        "filiere": "Loisir",
+        "activite": "Etablissement de loisir",
+        "ville": "CHOUZY-SUR-CISSE",
+        "adresse": "LES SABLES",
+        "type_handicap": ""
+    },
+    {
+        "name": "LOISIRS LOIRE VALLEY - Location de salle",
+        "filiere": "Loisir",
+        "activite": "Etablissement de loisir",
+        "ville": "CHOUZY-SUR-CISSE",
+        "adresse": "LES SABLES - 1 chemin du sainfoin",
+        "type_handicap": ""
+    },
+    {
+        "name": "Ethic Etapes Val de Loire",
+        "filiere": "Hébergement ERP",
+        "activite": "Hébergement collectif",
+        "ville": "BLOIS",
+        "adresse": "37 rue Pierre et Marie Curie",
+        "type_handicap": "AUDITIF;MENTAL;MOTEUR;VISUEL;"
+    },
+    {
+        "name": "auberge du centre",
+        "filiere": "Hébergement ERP",
+        "activite": "Hôtel",
+        "ville": "CHITENAY",
+        "adresse": "34 grande rue",
+        "type_handicap": ""
+    },
+    {
+        "name": "CHATEAU DE LA ROZELLE",
+        "filiere": "Hébergement ERP",
+        "activite": "Hôtel",
+        "ville": "CELLETTES",
+        "adresse": "15 bis rue de La Rozelle",
+        "type_handicap": "AUDITIF;MENTAL;"
+    },
+    {
+        "name": "Maison de la BD",
+        "filiere": "Visite",
+        "activite": "Lieu de visite",
+        "ville": "BLOIS",
+        "adresse": "3 rue des Jacobins",
+        "type_handicap": ""
+    },
+    {
+        "name": "Château Royal de Blois",
+        "filiere": "Visite",
+        "activite": "Lieu de visite",
+        "ville": "BLOIS",
+        "adresse": "Place du Château",
+        "type_handicap": ""
+    },
+    {
+        "name": "centre de la resistance de la déportation et de la mémoire",
+        "filiere": "Visite",
+        "activite": "Lieu de visite",
+        "ville": "BLOIS",
+        "adresse": "6 place Victor Hogo",
+        "type_handicap": ""
+    },
+    {
+        "name": "Domaine de Chaumont sur Loire - Festival des Jardins",
+        "filiere": "Visite",
+        "activite": "Lieu de visite",
+        "ville": "CHAUMONT-SUR-LOIRE",
+        "adresse": "Le Festival des Jardins",
+        "type_handicap": ""
+    },
+    {
+        "name": "DOMAINE DE CHAUMONT SUR LOIRE",
+        "filiere": "Visite",
+        "activite": "Lieu de visite",
+        "ville": "CHAUMONT-SUR-LOIRE",
+        "adresse": "Le Chateau",
+        "type_handicap": ""
+    },
+    {
+        "name": "Maison des vins de Cheverny",
+        "filiere": "Visite",
+        "activite": "Lieu de visite",
+        "ville": "CHEVERNY",
+        "adresse": "1 Avenue du Château",
+        "type_handicap": "AUDITIF;MENTAL;MOTEUR;"
+    },
+    {
+        "name": "HARMONIES Gîte Bioclimatique Meublé de Tourisme 4*",
+        "filiere": "Hébergement non ERP",
+        "activite": "Meublé de tourisme",
+        "ville": "SAINT-DENIS-SUR-LOIRE",
+        "adresse": "46 rue du château d'eau",
+        "type_handicap": ""
+    },
+    {
+        "name": "Le chouette refuge",
+        "filiere": "Hébergement non ERP",
+        "activite": "Meublé de tourisme",
+        "ville": "CHAUMONT-SUR-LOIRE",
+        "adresse": "2 route de Vesnon",
+        "type_handicap": ""
+    },
+    {
+        "name": "Eco-Gite La petite Bourdonnière",
+        "filiere": "Hébergement non ERP",
+        "activite": "Meublé de tourisme",
+        "ville": "CHEVERNY",
+        "adresse": "La Petite Bourdonnière",
+        "type_handicap": ""
+    },
+    {
+        "name": "La petite Bourdonnière",
+        "filiere": "Hébergement non ERP",
+        "activite": "Meublé de tourisme",
+        "ville": "CHEVERNY",
+        "adresse": "La Petite Bourdonnière",
+        "type_handicap": ""
+    },
+    {
+        "name": "Restaurant La Trouvaille",
+        "filiere": "Restauration",
+        "activite": "Restauration",
+        "ville": "BLOIS",
+        "adresse": "5 rue de la Chaine",
+        "type_handicap": "AUDITIF;MENTAL;MOTEUR;VISUEL;"
+    },
+    {
+        "name": "Assa Restaurant",
+        "filiere": "Restauration",
+        "activite": "Restauration",
+        "ville": "BLOIS",
+        "adresse": "189 quai Ulysse Besnard",
+        "type_handicap": ""
+    },
+    {
+        "name": "Chambres d'hôtes La Levraudière",
+        "filiere": "Hébergement non ERP",
+        "activite": "Chambre d'hôtes",
+        "ville": "CHEVERNY",
+        "adresse": "Route de Contres",
+        "type_handicap": "AUDITIF;MENTAL;VISUEL;"
+    },
+    {
+        "name": "Sentier Pieds Nus LLV",
+        "filiere": "Loisir",
+        "activite": "Parc de loisir",
+        "ville": "CHOUZY-SUR-CISSE",
+        "adresse": "Chemin du Sainfoin Domaine de la Pépinière",
+        "type_handicap": "AUDITIF;MENTAL;VISUEL;"
+    },
+    {
+        "name": "Chambre d'hôtes \"\"Le Clos Macé\"\"",
+        "filiere": "Hébergement non ERP",
+        "activite": "Chambre d'hôtes",
+        "ville": "SAINT-DENIS-SUR-LOIRE",
+        "adresse": "7 rue Muraton",
+        "type_handicap": "AUDITIF;MENTAL;VISUEL;"
+    },
+    {
+        "name": "First Inn Hôtel",
+        "filiere": "Hébergement ERP",
+        "activite": "Hôtel",
+        "ville": "BLOIS",
+        "adresse": "25 Bis rue de la Vallée Maillard",
+        "type_handicap": "AUDITIF;MENTAL;MOTEUR;VISUEL;"
+    },
+    {
+        "name": "Gîte 4 personnes \"\"La Lezardière\"\"",
+        "filiere": "Hébergement non ERP",
+        "activite": "Meublé de tourisme",
+        "ville": "BLOIS",
+        "adresse": "116 rue Albert 1er",
+        "type_handicap": "AUDITIF;MENTAL;VISUEL;"
+    },
+    {
+        "name": "Gîte 15 personnes \"\"La Lézardière\"\"",
+        "filiere": "Hébergement non ERP",
+        "activite": "Meublé de tourisme",
+        "ville": "BLOIS",
+        "adresse": "116 rue Albert 1er",
+        "type_handicap": "AUDITIF;MENTAL;MOTEUR;VISUEL;"
+    },
+    {
+        "name": "Gîte \"\"Le Cottage\"\" Chez Flo&Marc",
+        "filiere": "Hébergement non ERP",
+        "activite": "Meublé de tourisme",
+        "ville": "CHOUZY-SUR-CISSE",
+        "adresse": "3 route des Marchais",
+        "type_handicap": "AUDITIF;MENTAL;VISUEL;"
+    },
+    {
+        "name": "Meublé \"\"Le Petit Pavillon\"\"",
+        "filiere": "Hébergement non ERP",
+        "activite": "Meublé de tourisme",
+        "ville": "CHEVERNY",
+        "adresse": "8 route de Cellettes",
+        "type_handicap": "AUDITIF;MENTAL;MOTEUR;VISUEL;"
+    }
+]
