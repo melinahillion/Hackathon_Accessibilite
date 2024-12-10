@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carte avec API Google Maps</title>
+    <title>Résultats de Recherche</title>
     <style>
         /* General Reset */
         * {
@@ -46,18 +46,27 @@
 
         #map-container {
             flex: 2;
-            height: 500px;
+            height: 600px; /* Height of the map section */
             border: 2px solid #ddd;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        #map-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the entire container */
+            border-radius: 8px;
         }
 
         .results-container {
             flex: 1;
             max-width: 400px;
-            height: 500px;
-            overflow-y: auto;
             background: #ffffff;
             border: 1px solid #ddd;
             border-radius: 8px;
@@ -65,24 +74,28 @@
             padding: 10px;
         }
 
-        .results-container div {
-            margin-bottom: 10px;
-            padding: 10px;
-            border-bottom: 1px solid #ccc;
+        .results-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
 
-        .results-container div:last-child {
-            border-bottom: none;
+        .results-container div {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f8f8f8;
         }
 
         .pagination {
-            text-align: center;
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
             margin-top: 10px;
         }
 
         .pagination button {
             padding: 10px 15px;
-            margin: 5px;
             border: none;
             border-radius: 5px;
             background: #007BFF;
@@ -99,23 +112,11 @@
             cursor: not-allowed;
         }
 
-        .search-container {
-            max-width: 800px;
-            margin: 30px auto;
-            text-align: center;
-        }
-
-        .search-container input {
-            width: 70%;
-            padding: 10px;
-            font-size: 1rem;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-right: 5px;
-        }
-
-        .search-container button {
-            padding: 10px 15px;
+        .home-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
             font-size: 1rem;
             color: #fff;
             background-color: #007BFF;
@@ -124,79 +125,35 @@
             cursor: pointer;
         }
 
-        .search-container button:hover {
+        .home-button:hover {
             background-color: #0056b3;
         }
 
-        .satisfaction {
-            max-width: 800px;
-            margin: 30px auto;
+        .search-info {
             text-align: center;
-            padding: 20px;
-            background-color: #ffffff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .satisfaction h3 {
+            margin-bottom: 20px;
             font-size: 1.2rem;
-            margin-bottom: 15px;
-            color: #444;
-        }
-
-        .rating {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .rating button {
-            border: none;
-            background: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            transition: transform 0.2s ease, color 0.3s ease;
-        }
-
-        .rating button:hover,
-        .rating button.selected {
-            color: #007BFF;
-            transform: scale(1.2);
-        }
-
-        .rating button:focus {
-            outline: none;
-        }
-
-        .feedback {
-            margin-top: 10px;
-            font-size: 1rem;
             color: #444;
         }
     </style>
 </head>
 <body>
+    <button class="home-button" onclick="window.location.href='index.html'">Home</button>
+    
     <header>
-        <h1>Search Your City</h1>
-        <h2>Carte Google Maps</h2>
+        <h1>Résultats pour la ville : <span id="city-name"></span></h1>
     </header>
-
-    <div class="search-container">
-        <input type="text" id="search-city" placeholder="Enter your city (e.g., Paris)">
-        <button onclick="searchCity()">Search</button>
-    </div>
 
     <div class="main-container">
         <!-- Map Container -->
         <div id="map-container">
-            <div id="map"></div>
+            <img src="../../photos/map.png" alt="Carte statique représentant la ville recherchée">
         </div>
 
         <!-- Results Container -->
         <div class="results-container" id="results-container">
             <div id="results-list">
-                <p>Enter a city name to see results.</p>
+                <p>Les résultats de recherche s'affichent ici.</p>
             </div>
             <div class="pagination">
                 <button id="prev-button" onclick="changePage(-1)" disabled>Previous</button>
@@ -205,45 +162,25 @@
         </div>
     </div>
 
-    <!-- Satisfaction Section -->
-    <div class="satisfaction">
-        <h3>Êtes-vous satisfait du résultat ?</h3>
-        <div class="rating">
-            <button data-rating="1">😡</button>
-            <button data-rating="2">😞</button>
-            <button data-rating="3">😐</button>
-            <button data-rating="4">😊</button>
-            <button data-rating="5">😍</button>
-        </div>
-        <div class="feedback">Cliquez sur une icône pour donner votre avis !</div>
-    </div>
-
     <script>
         let currentPage = 0; // Index de la page actuelle
         let paginatedResults = []; // Stocke les résultats paginés
 
-        // Initialiser Google Maps
-        function initMap() {
-            const location = { lat: 48.8566, lng: 2.3522 }; // Paris par défaut
-            const map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 12,
-                center: location,
-            });
+        // Récupérer la ville depuis l'URL
+        function getCityFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get("ville") || "Ville inconnue";
+        }
 
-            const marker = new google.maps.Marker({
-                position: location,
-                map: map,
-            });
+        // Afficher la ville recherchée
+        function displayCityName() {
+            const cityName = getCityFromURL();
+            document.getElementById("city-name").textContent = cityName;
         }
 
         // Recherche de ville
         function searchCity() {
-            const city = document.getElementById("search-city").value.trim();
-
-            if (!city) {
-                alert("Veuillez entrer un nom de ville.");
-                return;
-            }
+            const city = getCityFromURL();
 
             fetch("../acceslibre_agglo_blois.json")
                 .then(response => response.json())
@@ -293,40 +230,11 @@
             updateResults();
         }
 
-        function getCityFromURL() {
-            const params = new URLSearchParams(window.location.search);
-            return params.get("ville") || "";
-        }
-
-        function initSearch() {
-            const city = getCityFromURL();
-            if (city) {
-                const input = document.getElementById("search-city");
-                input.value = city;
-                searchCity();
-            }
-        }
-
-        window.onload = initSearch;
-
-        // Satisfaction functionality
-        document.querySelectorAll('.rating button').forEach(button => {
-            button.addEventListener('click', () => {
-                document.querySelectorAll('.rating button').forEach(btn => btn.classList.remove('selected'));
-                button.classList.add('selected');
-                const feedbackText = {
-                    1: "😡 Pas du tout satisfait !",
-                    2: "😞 Peu satisfait.",
-                    3: "😐 Moyen.",
-                    4: "😊 Satisfait !",
-                    5: "😍 Très satisfait !",
-                };
-                document.querySelector('.feedback').textContent = feedbackText[button.dataset.rating];
-            });
-        });
+        // Initialisation
+        window.onload = () => {
+            displayCityName();
+            searchCity();
+        };
     </script>
-
-    <!-- Google Maps API -->
-    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 </body>
 </html>
