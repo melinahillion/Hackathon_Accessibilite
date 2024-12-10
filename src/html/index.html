@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body>
     <div class="container2">
         <form id="handicapForm" onsubmit="redirectToPage(event)">
@@ -35,6 +36,27 @@
         
         
     </div>
-    <script src=".../script.js"></script>
+    <!-- <script src=".../script.js"></script> -->
+    <script>
+        function redirectToPage(event) {
+            event.preventDefault(); // Empêche la soumission classique du formulaire
+    
+            // Récupère les valeurs des champs de formulaire
+            const ville = document.getElementById("ville").value.trim();
+    
+            // Vérifie si la ville est vide
+            if (!ville) {
+                alert("Veuillez entrer le nom de votre ville !");
+                return;
+            }
+    
+            // Ajoute la ville dans l'URL comme paramètre GET
+            const queryParams = new URLSearchParams({ ville: ville });
+    
+            // Redirige vers la page suivante avec les paramètres GET
+            window.location.href = `manger_dormir.html?${queryParams.toString()}`;
+        }
+    </script>
+    
 </body>
 </html>
