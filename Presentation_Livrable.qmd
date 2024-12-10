@@ -1,0 +1,28 @@
+---
+title: "Tourisme Accessible"
+author: "Hackathon Tourisme et Handicap"
+subtitle: "9 et 10 décembre 2024"
+format: revealjs
+---
+
+## L'irritant
+
+::: {.incremental}
+- Dur de savoir si un lieu est [vraiment]{style="color:blue;"} accessible
+
+- Accelibre est super complet mais je veux avoir une sélection facile à comprendre
+
+- Je veux être informé par les derniers avis des usagers directement concernés par l'accessibilité
+:::
+
+## L'idée
+
+## Impacts attendus
+
+## Données mobilisées 
+
+## Le prototype
+
+## Prolongements 
+
+
