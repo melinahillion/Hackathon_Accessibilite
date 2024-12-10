@@ -13,9 +13,13 @@ format: revealjs
 - Accelibre est super complet mais je veux avoir une sélection facile à comprendre
 
 - Je veux être informé par les derniers avis des usagers directement concernés par l'accessibilité
+
 :::
 
 ## L'idée
+
+Rendre la recherche d’informations et la planification de séjours plus simple aux personnes en situation de handicap.
+
 
 ## Impacts attendus
 
@@ -23,6 +27,26 @@ format: revealjs
 
 ## Le prototype
 
+### 1. Simplifier l’expérience utilisateur
+
+- Interface épurée, visuelle et intuitive (icônes, images)
+- Accès rapide aux informations essentielles
+
+---
+
+### 2. Centraliser et enrichir les données Accès Libre
+
+- Intégration des données d’OpenStreetMap (accessibilité des lieux, parkings)
+- Données Atout Tourisme (capacité d’accueil des hébergements, chambres accessibles)
+- Contributions des propriétaires et retours utilisateurs (fiches modifiables, validation qualité)
+- Agrégation de notes et avis (Google, Tripadvisor) et synthèse claire (points positifs et négatifs) des avis des personnes en situation de handicap
+
+
 ## Prolongements 
 
+### 1. Parcours personnalisé adapté aux besoins
 
+Un accompagnement complet, personnalisable et inclusif, facilitant l’organisation de séjours accessibles:
+
+- Saisie libre du type de handicap, des besoins spécifiques (hébergement, restauration, activités) et du lieu
+- Utilisation d’un modèle LLM pour proposer une liste de lieux (hébergement, restauration) à proximité d'un centre d'intérêt (lieu culturel, loisir etc.)
