@@ -46,7 +46,7 @@
 
         #map-container {
             flex: 2;
-            height: 500px;
+            height: 600px; /* Increased height for visibility */
             border: 2px solid #ddd;
             border-radius: 8px;
             overflow: hidden;
@@ -56,8 +56,6 @@
         .results-container {
             flex: 1;
             max-width: 400px;
-            height: 500px;
-            overflow-y: auto;
             background: #ffffff;
             border: 1px solid #ddd;
             border-radius: 8px;
@@ -65,24 +63,28 @@
             padding: 10px;
         }
 
-        .results-container div {
-            margin-bottom: 10px;
-            padding: 10px;
-            border-bottom: 1px solid #ccc;
+        .results-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
 
-        .results-container div:last-child {
-            border-bottom: none;
+        .results-container div {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f8f8f8;
         }
 
         .pagination {
-            text-align: center;
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
             margin-top: 10px;
         }
 
         .pagination button {
             padding: 10px 15px;
-            margin: 5px;
             border: none;
             border-radius: 5px;
             background: #007BFF;
@@ -127,53 +129,6 @@
         .search-container button:hover {
             background-color: #0056b3;
         }
-
-        .satisfaction {
-            max-width: 800px;
-            margin: 30px auto;
-            text-align: center;
-            padding: 20px;
-            background-color: #ffffff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .satisfaction h3 {
-            font-size: 1.2rem;
-            margin-bottom: 15px;
-            color: #444;
-        }
-
-        .rating {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .rating button {
-            border: none;
-            background: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            transition: transform 0.2s ease, color 0.3s ease;
-        }
-
-        .rating button:hover,
-        .rating button.selected {
-            color: #007BFF;
-            transform: scale(1.2);
-        }
-
-        .rating button:focus {
-            outline: none;
-        }
-
-        .feedback {
-            margin-top: 10px;
-            font-size: 1rem;
-            color: #444;
-        }
     </style>
 </head>
 <body>
@@ -203,19 +158,6 @@
                 <button id="next-button" onclick="changePage(1)" disabled>Next</button>
             </div>
         </div>
-    </div>
-
-    <!-- Satisfaction Section -->
-    <div class="satisfaction">
-        <h3>Êtes-vous satisfait du résultat ?</h3>
-        <div class="rating">
-            <button data-rating="1">😡</button>
-            <button data-rating="2">😞</button>
-            <button data-rating="3">😐</button>
-            <button data-rating="4">😊</button>
-            <button data-rating="5">😍</button>
-        </div>
-        <div class="feedback">Cliquez sur une icône pour donner votre avis !</div>
     </div>
 
     <script>
@@ -308,25 +250,13 @@
         }
 
         window.onload = initSearch;
-
-        // Satisfaction functionality
-        document.querySelectorAll('.rating button').forEach(button => {
-            button.addEventListener('click', () => {
-                document.querySelectorAll('.rating button').forEach(btn => btn.classList.remove('selected'));
-                button.classList.add('selected');
-                const feedbackText = {
-                    1: "😡 Pas du tout satisfait !",
-                    2: "😞 Peu satisfait.",
-                    3: "😐 Moyen.",
-                    4: "😊 Satisfait !",
-                    5: "😍 Très satisfait !",
-                };
-                document.querySelector('.feedback').textContent = feedbackText[button.dataset.rating];
-            });
-        });
     </script>
 
     <!-- Google Maps API -->
-    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+    <script 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFB8yDirSU27rXL2kaXeaqokfbT1xf3Ro&callback=initMap" 
+        async 
+        defer>
+    </script>
 </body>
 </html>

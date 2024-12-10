@@ -5,122 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
     <link rel="stylesheet" href="../css/manger_dormir.css">
+    <style>
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .checkbox-container img {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
 </head>
 <body>
-    <input type="button" value="Prev" onclick="window.location='index.html'">
+    <input type="button" value="Retour" onclick="window.location='index.html'">
     <div class="container">
-        <!-- Catégorie : Où manger -->
-        <div class="category" id="manger">
-            <a href=""><h1 style="font-size: 50px;">Où manger ?</h1></a>
-            <br>
-            <form>
-                <label>
-                    <input type="checkbox" name="besoin_manger" value="menu_braille">
-                    Toilettes PMR
-                </label><br>
-
-                <label>
-                    <input type="checkbox" name="besoin_manger" value="menu_braille">
-                    Stationnement PMR
-                </label><br>
-
-                <label>
-                    <input type="checkbox" name="besoin_manger" value="menu_braille">
-                    Equipement spécifique pour personne malentendante
-                </label><br>
-
-                <label>
-                    <input type="checkbox" name="besoin_manger" value="menu_braille">
-                    Personnels sensibilisés ou formés
-                </label><br>
-
-                <label>
-                    <input type="checkbox" name="besoin_manger" value="menu_braille">
-                    Marque(s) ou label(s) 
-                </label><br>
-
-                <label>
-                    <input type="checkbox" name="besoin_manger" value="menu_braille">
-                    Accessibilité pour fauteuil roulant
-                </label><br>
-
-                <label>
-                    <input type="checkbox" name="besoin_manger" value="menu_braille">
-                    Proximité d'un parking accessible
-                </label><br>
-
-            </form>
+<!-- Catégorie : Où manger -->
+<div class="category" id="manger">
+    <h1>Où manger ?</h1>
+    <br>
+    <form>
+        <div class="checkbox-container">
+            <input type="checkbox" name="besoin_manger" value="difficultes_voir">
+            <img src="../../photos/visuel.png" alt="Icon Difficultés à voir" style="width: 30px; height: 30px;margin-left: 8px;">
+            <label>Difficultés à voir</label>
         </div>
-
-        <!-- Catégorie : Où dormir -->
-        <div class="category" id="dormir">
-            <a href=""><h1 style="font-size: 50px;">Où dormir ?</h1></a>
-            <br>
-            <form>
-                <label>
-                    <input type="checkbox" name="besoin_dormir" value="lit_pmr">
-                    Labelisé handicap mental
-                </label><br>
-                <label>
-                    <input type="checkbox" name="besoin_dormir" value="salle_bain_adaptee">
-                    Labelisé handicap physique
-                </label><br>
-                <label>
-                    <input type="checkbox" name="besoin_dormir" value="proche_gare">
-                    Labelisé handicap visuel
-                </label><br>
-                <label>
-                    <input type="checkbox" name="besoin_dormir" value="ascenseur">
-                    Labelisé handicap auditif
-                </label>
-            </form>
+        <div class="checkbox-container">
+            <input type="checkbox" name="besoin_manger" value="difficultes_entendre">
+            <img src="../../photos/ear.png" alt="Icon Difficultés à entendre" style="width: 50px; height: 50px;">
+            <label>Difficultés à entendre</label>
         </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="besoin_manger" value="difficultes_comprendre">
+            <img src="../../photos/brain.png" alt="Icon Difficultés à comprendre" style="width: 50px; height: 50px;">
+            <label>Difficultés à comprendre</label>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="besoin_manger" value="difficultes_deplacer">
+            <img src="../../photos/wheelchair.png" alt="Icon Difficultés à se déplacer" style="width: 50px; height: 50px;">
+            <label>Difficultés à se déplacer</label>
+        </div>
+    </form>
+</div>
+
+
+<!-- Catégorie : Où dormir -->
+<div class="category" id="dormir">
+    <h1>Où dormir ?</h1>
+    <br>
+    <form>
+        <div class="checkbox-container">
+            <input type="checkbox" name="besoin_dormir" value="handicap_visuel">
+            <img src="../../photos/visuel.png" alt="Icon Label handicap visuel" style="width: 30px; height: 30px;margin-left: 8px;">
+            <label>Label handicap visuel</label>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="besoin_dormir" value="handicap_auditif">
+            <img src="../../photos/ear.png" alt="Icon Label handicap auditif" style="width: 50px; height: 50px;">
+            <label>Label handicap auditif</label>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="besoin_dormir" value="handicap_mental">
+            <img src="../../photos/brain.png" alt="Icon Label handicap mental" style="width: 50px; height: 50px;">
+            <label>Label handicap mental</label>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="besoin_dormir" value="handicap_physique">
+            <img src="../../photos/wheelchair.png" alt="Icon Label handicap physique" style="width: 50px; height: 50px;">
+            <label>Label handicap physique</label>
+        </div>
+    </form>
+</div>
+
     </div>
+
     <button class="selectnone" onclick="redirectToResult()">
-        <span>Submit me</span>
+        <span>Lancer la recherche</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path d="M0 11c2.761.575 6.312 1.688 9 3.438 3.157-4.23 8.828-8.187 15-11.438-5.861 5.775-10.711 12.328-14 18.917-2.651-3.766-5.547-7.271-10-10.917z"/>
         </svg>
     </button>
-    
+
     <script>
-        // Redirection vers la page result.html avec la ville
         function redirectToResult() {
-            const ville = getVilleFromURL(); // Récupère la ville depuis l'URL
+            const ville = getVilleFromURL();
             if (!ville) {
                 alert("Aucune ville spécifiée !");
                 return;
             }
-    
-            // Construire l'URL avec le paramètre ville
             const queryParams = new URLSearchParams({ ville });
             setTimeout(() => {
-                alert('Successfully submitted! Redirecting your result');
+                alert('Redirection vers vos résultats...');
                 window.location.href = `result.html?${queryParams.toString()}`;
             }, 2500);
         }
-    </script>
-    
-    
-    <script src="../script.js"></script>
 
-    <script>
-        // Fonction pour récupérer la valeur de la ville depuis l'URL
         function getVilleFromURL() {
             const params = new URLSearchParams(window.location.search);
             return params.get("ville") || "Ville inconnue";
         }
-    
-        // Exemple : Utilisez la ville récupérée
+
         const ville = getVilleFromURL();
         console.log("Ville reçue :", ville);
-    
-        // Affiche la ville sur la page (facultatif)
-        const resultsContainer = document.getElementById("results-container");
-        if (resultsContainer) {
-            resultsContainer.innerHTML = `<h1>Recherche pour : ${ville}</h1>`;
-        }
     </script>
-    
 </body>
 </html>
