@@ -13,22 +13,21 @@ format: revealjs
 
 ### 1. Simplifier l’expérience utilisateur
 
-- Interface épurée, visuelle et intuitive (icônes, images)
-- Accès rapide aux informations essentielles
+- [**Interface épurée**]{style="color:blue;"}, visuelle et intuitive (icônes, images)
+- Accès rapide aux [**informations essentielles**]{style="color:blue;"}
+
+---
 
 ### 2. Centraliser et enrichir les données Accès Libre
 
 - Intégration des données d’OpenStreetMap (accessibilité des lieux, parkings)
 - Données Atout Tourisme (capacité d’accueil des hébergements, chambres accessibles)
 - Contributions des propriétaires et retours utilisateurs (fiches modifiables, validation qualité)
-- Agrégation de notes et avis (Google, Tripadvisor) et synthèse claire (points positifs et négatifs) des avis des personnes en situation de handicap
-
+- Agrégation de notes et avis (Google, Tripadvisor) et synthèse claire (points positifs et négatifs) des [**avis des personnes en situation de handicap**]{style="color:blue;"}
 
 ## Notre prototype
 
-
 [Cliquez-moi !](https://ludovicdop.github.io/test_site.github.io/html/index.html)
-
 
 ## Prolongements
 
