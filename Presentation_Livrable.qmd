@@ -32,18 +32,22 @@ format: revealjs
 
 ## Prolongements
 
+---
+
 ### 1. Construire un parcours personnalisé et adapté aux besoins
 
-Un accompagnement complet, personnalisable et inclusif, facilitant l’organisation de séjours accessibles:
+Une <span style="color: blue;font-weight: bold;"> expérience personnalisée </span>, exploitant au mieux les informations disponibles:
 
-- Utilisateur : Saisie libre du type de handicap, des besoins spécifiques (hébergement, restauration, activités) et du lieu
-- Réponse de la plateforme : proposition d'une liste de lieux (hébergement, restauration) compatibles avec le profil de la personne situés à proximité d'un centre d'intérêt (lieu culturel, loisir etc.)
+- <span style="color: blue;font-weight: bold;"> Utilisateur </span> : Saisie libre du type de handicap, des besoins spécifiques (aide humaine), des activités recherchées (hébergement, restauration, activités) et du lieu (Blois)
+- <span style="color: blue;font-weight: bold;"> Réponse de la plateforme </span> : proposition d'une liste de lieux (hébergement, restauration) compatibles avec le profil de la personne, situés à proximité d'un centre d'intérêt (lieu culturel, loisir etc.)
 
 ---
 
-### 2. Feuille de route
+### 2. La synthèse des avis sur l'accessibilité
 
--   Régulièrement, <span style="color: blue;font-weight: bold;"> scraper les avis </span>Google/TripAdvisor des lieux référencés sur notre plateforme et <span style="color: blue;font-weight: bold;"> filtrer avec un premier LLM </span> ceux qui parlent d'handicap et d'accessibilités pour <span style="color: blue;font-weight: bold;"> rédiger avec un deuxième LLM une courte synthèse descriptive</span>
+-   Régulièrement, <span style="color: blue;font-weight: bold;"> scraper les avis </span>Google/TripAdvisor des lieux référencés sur notre plateforme et <span style="color: blue;font-weight: bold;"> filtrer avec un premier LLM </span> ceux qui parlent d'handicap et d'accessibilités 
+
+- Note moyenne des avis et <span style="color: blue;font-weight: bold;"> rédiger avec un deuxième LLM une courte synthèse descriptive</span>
 
 -   <span style="color: blue;font-weight: bold;"> Donner un poids plus grand aux avis les plus récents </span> : parfois les équipements d'accessibilité sont en panne ou ont disparu, peut-être que les derniers usagers  ont consigné toutes ces informations utiles dans leurs avis ?
 
