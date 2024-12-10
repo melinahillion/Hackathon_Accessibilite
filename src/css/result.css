@@ -1,18 +1,38 @@
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .pagination {
+        text-align: center;
+        margin-top: 10px;
     }
+
+    .pagination button {
+        padding: 10px 15px;
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        background: #007BFF;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .pagination button:hover {
+        background: #0056b3;
+    }
+
+    .pagination button:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+    }
+
+
 
     .main-container {
         display: flex;
         max-width: 1200px;
-        width: 100%;
+        margin: 0 auto;
         gap: 20px;
     }
 
     #map-container {
-        flex: 1;
+        flex: 2;
         height: 500px;
         border: 2px solid #ddd;
         border-radius: 8px;
@@ -32,12 +52,13 @@
         padding: 10px;
     }
 
-    .result-item {
-        border-bottom: 1px solid #ccc;
+    .results-container div {
+        margin-bottom: 10px;
         padding: 10px;
+        border-bottom: 1px solid #ccc;
     }
 
-    .result-item:last-child {
+    .results-container div:last-child {
         border-bottom: none;
     }
 
@@ -47,7 +68,7 @@
     }
 
     .pagination button {
-        padding: 5px 10px;
+        padding: 10px 15px;
         margin: 5px;
         border: none;
         border-radius: 5px;

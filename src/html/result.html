@@ -37,38 +37,95 @@
             font-weight: 400;
         }
 
+        .main-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 20px;
+        }
+
         #map-container {
-            max-width: 800px;
-            margin: 20px auto;
+            flex: 2;
+            height: 500px;
             border: 2px solid #ddd;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        #map {
-            height: 500px; /* Hauteur de la carte */
-            width: 100%;   /* Largeur de la carte */
+        .results-container {
+            flex: 1;
+            max-width: 400px;
+            height: 500px;
+            overflow-y: auto;
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
         }
 
-        .info {
-            max-width: 800px;
-            margin: 0 auto;
+        .results-container div {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .results-container div:last-child {
+            border-bottom: none;
+        }
+
+        .pagination {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 10px;
         }
 
-        .info p {
-            margin: 10px 0;
+        .pagination button {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background: #007BFF;
+            color: #fff;
+            cursor: pointer;
         }
 
-        .info a {
-            color: #007BFF;
-            text-decoration: none;
+        .pagination button:hover {
+            background: #0056b3;
         }
 
-        .info a:hover {
-            text-decoration: underline;
+        .pagination button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .search-container {
+            max-width: 800px;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .search-container input {
+            width: 70%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+
+        .search-container button {
+            padding: 10px 15px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search-container button:hover {
+            background-color: #0056b3;
         }
 
         .satisfaction {
@@ -117,56 +174,6 @@
             font-size: 1rem;
             color: #444;
         }
-
-        /* Search Container */
-        .search-container {
-            max-width: 800px;
-            margin: 30px auto;
-            text-align: center;
-        }
-
-        .search-container input {
-            width: 70%;
-            padding: 10px;
-            font-size: 1rem;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-right: 5px;
-        }
-
-        .search-container button {
-            padding: 10px 15px;
-            font-size: 1rem;
-            color: #fff;
-            background-color: #007BFF;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .search-container button:hover {
-            background-color: #0056b3;
-        }
-
-        .results-container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 10px;
-            background: #ffffff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .results-container div {
-            margin-bottom: 10px;
-            padding: 10px;
-            border-bottom: 1px solid #ccc;
-        }
-
-        .results-container div:last-child {
-            border-bottom: none;
-        }
     </style>
 </head>
 <body>
@@ -175,23 +182,30 @@
         <h2>Carte Google Maps</h2>
     </header>
 
-    <!-- Map Container -->
-    <div id="map-container">
-        <div id="map"></div>
-    </div>
-
-    <!-- Search Input -->
     <div class="search-container">
         <input type="text" id="search-city" placeholder="Enter your city (e.g., Paris)">
         <button onclick="searchCity()">Search</button>
     </div>
 
-    <!-- Results Container -->
-    <div class="results-container" id="results-container">
-        <p>Enter a city name to see results.</p>
+    <div class="main-container">
+        <!-- Map Container -->
+        <div id="map-container">
+            <div id="map"></div>
+        </div>
+
+        <!-- Results Container -->
+        <div class="results-container" id="results-container">
+            <div id="results-list">
+                <p>Enter a city name to see results.</p>
+            </div>
+            <div class="pagination">
+                <button id="prev-button" onclick="changePage(-1)" disabled>Previous</button>
+                <button id="next-button" onclick="changePage(1)" disabled>Next</button>
+            </div>
+        </div>
     </div>
 
-    <!-- Satisfaction Touch Bar -->
+    <!-- Satisfaction Section -->
     <div class="satisfaction">
         <h3>Êtes-vous satisfait du résultat ?</h3>
         <div class="rating">
@@ -201,13 +215,16 @@
             <button data-rating="4">😊</button>
             <button data-rating="5">😍</button>
         </div>
-        <div class="feedback">Click on an emoji to rate!</div>
+        <div class="feedback">Cliquez sur une icône pour donner votre avis !</div>
     </div>
 
     <script>
-        // Initialize Google Maps
+        let currentPage = 0; // Index de la page actuelle
+        let paginatedResults = []; // Stocke les résultats paginés
+
+        // Initialiser Google Maps
         function initMap() {
-            const location = { lat: 48.8566, lng: 2.3522 }; // Default location (Paris)
+            const location = { lat: 48.8566, lng: 2.3522 }; // Paris par défaut
             const map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 12,
                 center: location,
@@ -219,118 +236,97 @@
             });
         }
 
-        // Search City Functionality
+        // Recherche de ville
         function searchCity() {
             const city = document.getElementById("search-city").value.trim();
 
             if (!city) {
-                alert("Please enter a city name.");
+                alert("Veuillez entrer un nom de ville.");
                 return;
             }
 
-            // Fetch JSON data (Replace with your file path)
             fetch("../acceslibre_agglo_blois.json")
                 .then(response => response.json())
                 .then(data => {
-                    const results = data.filter(item => item.commune.toLowerCase() === city.toLowerCase());
-                    const resultsContainer = document.getElementById("results-container");
-
-                    // Clear previous results
-                    resultsContainer.innerHTML = "";
-
-                    if (results.length === 0) {
-                        resultsContainer.innerHTML = `<p>No results found for "${city}".</p>`;
-                        return;
-                    }
-
-                    // Display results
-                    results.forEach(item => {
-                        const div = document.createElement("div");
-                        div.innerHTML = `
-                            <h2>${item.name || "Unknown Name"}</h2>
-                            <p><strong>Address:</strong> ${item.numero || ""} ${item.voie || ""}, ${item.postal_code || ""}</p>
-                            <p><strong>Latitude:</strong> ${item.latitude}</p>
-                            <p><strong>Longitude:</strong> ${item.longitude}</p>
-                            <p><strong>Site Internet:</strong> ${item.site_internet ? `<a href="${item.site_internet}" target="_blank">${item.site_internet}</a>` : "No site available"}</p>
-                        `;
-                        resultsContainer.appendChild(div);
-                    });
+                    paginatedResults = data.filter(item => item.commune.toLowerCase() === city.toLowerCase());
+                    currentPage = 0; // Réinitialise la pagination
+                    updateResults();
                 })
                 .catch(error => {
-                    console.error("Error fetching data:", error);
-                    document.getElementById("results-container").innerHTML = `<p>Error loading data. Please try again later.</p>`;
+                    console.error("Erreur lors du chargement des données:", error);
+                    document.getElementById("results-list").innerHTML = `<p>Erreur lors du chargement des données. Veuillez réessayer plus tard.</p>`;
                 });
         }
+
+        // Met à jour les résultats affichés pour la page actuelle
+        function updateResults() {
+            const resultsList = document.getElementById("results-list");
+            resultsList.innerHTML = "";
+
+            const start = currentPage * 3;
+            const end = start + 3;
+            const pageResults = paginatedResults.slice(start, end);
+
+            if (pageResults.length === 0) {
+                resultsList.innerHTML = `<p>Aucun résultat trouvé.</p>`;
+                return;
+            }
+
+            pageResults.forEach(item => {
+                const div = document.createElement("div");
+                div.innerHTML = `
+                    <h2>${item.name || "Nom inconnu"}</h2>
+                    <p><strong>Adresse:</strong> ${item.numero || ""} ${item.voie || ""}, ${item.postal_code || ""}</p>
+                    <p><strong>Latitude:</strong> ${item.latitude}</p>
+                    <p><strong>Longitude:</strong> ${item.longitude}</p>
+                    <p><strong>Site Internet:</strong> ${item.site_internet ? `<a href="${item.site_internet}" target="_blank">${item.site_internet}</a>` : "Non disponible"}</p>
+                `;
+                resultsList.appendChild(div);
+            });
+
+            document.getElementById("prev-button").disabled = currentPage === 0;
+            document.getElementById("next-button").disabled = end >= paginatedResults.length;
+        }
+
+        function changePage(direction) {
+            currentPage += direction;
+            updateResults();
+        }
+
+        function getCityFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get("ville") || "";
+        }
+
+        function initSearch() {
+            const city = getCityFromURL();
+            if (city) {
+                const input = document.getElementById("search-city");
+                input.value = city;
+                searchCity();
+            }
+        }
+
+        window.onload = initSearch;
+
+        // Satisfaction functionality
+        document.querySelectorAll('.rating button').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.rating button').forEach(btn => btn.classList.remove('selected'));
+                button.classList.add('selected');
+                const feedbackText = {
+                    1: "😡 Pas du tout satisfait !",
+                    2: "😞 Peu satisfait.",
+                    3: "😐 Moyen.",
+                    4: "😊 Satisfait !",
+                    5: "😍 Très satisfait !",
+                };
+                document.querySelector('.feedback').textContent = feedbackText[button.dataset.rating];
+            });
+        });
     </script>
 
     <!-- Google Maps API -->
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script>
-    <script>
-    // Récupérer la ville depuis l'URL
-    function getCityFromURL() {
-        const params = new URLSearchParams(window.location.search);
-        return params.get("ville") || "";
-    }
-
-    // Initialisation automatique de la recherche
-    function initSearch() {
-        const city = getCityFromURL(); // Récupère la ville depuis l'URL
-
-        if (city) {
-            const input = document.getElementById("search-city");
-            input.value = city; // Préremplit le champ de recherche
-            searchCity(); // Lance automatiquement la recherche
-        }
-    }
-
-    // Fonction de recherche de ville
-    function searchCity() {
-        const city = document.getElementById("search-city").value.trim();
-
-        if (!city) {
-            alert("Veuillez entrer un nom de ville.");
-            return;
-        }
-
-        // Fetch JSON data (Replace with your file path)
-        fetch("../acceslibre_agglo_blois.json")
-            .then(response => response.json())
-            .then(data => {
-                const results = data.filter(item => item.commune.toLowerCase() === city.toLowerCase());
-                const resultsContainer = document.getElementById("results-container");
-
-                // Clear previous results
-                resultsContainer.innerHTML = "";
-
-                if (results.length === 0) {
-                    resultsContainer.innerHTML = `<p>Aucun résultat trouvé pour "${city}".</p>`;
-                    return;
-                }
-
-                // Display results
-                results.forEach(item => {
-                    const div = document.createElement("div");
-                    div.innerHTML = `
-                        <h2>${item.name || "Nom inconnu"}</h2>
-                        <p><strong>Adresse:</strong> ${item.numero || ""} ${item.voie || ""}, ${item.postal_code || ""}</p>
-                        <p><strong>Latitude:</strong> ${item.latitude}</p>
-                        <p><strong>Longitude:</strong> ${item.longitude}</p>
-                        <p><strong>Site Internet:</strong> ${item.site_internet ? `<a href="${item.site_internet}" target="_blank">${item.site_internet}</a>` : "Non disponible"}</p>
-                    `;
-                    resultsContainer.appendChild(div);
-                });
-            })
-            .catch(error => {
-                console.error("Erreur lors du chargement des données:", error);
-                document.getElementById("results-container").innerHTML = `<p>Erreur lors du chargement des données. Veuillez réessayer plus tard.</p>`;
-            });
-    }
-
-    // Appel de la fonction initSearch au chargement de la page
-    window.onload = initSearch;
-</script>
-
+    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 </body>
 </html>
