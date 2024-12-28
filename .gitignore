@@ -1,0 +1,50 @@
+# Environnements virtuels
+venv/
+.env/
+*.env
+*.venv
+
+# Python cache files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+*.swp
+*.swo
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Test outputs
+.coverage
+*.coverage.*
+nosetests.xml
+test-results/
+htmlcov/
+
+# Build files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+wheelhouse/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Custom project files
+secrets.json
