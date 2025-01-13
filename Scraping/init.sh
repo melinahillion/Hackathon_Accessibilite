@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#chmod +x init.sh
+#./init.sh
+
 # Install Python dependencies
 pip install -r requirements.txt
 

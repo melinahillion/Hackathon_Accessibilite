@@ -48,3 +48,6 @@ wheelhouse/
 
 # Custom project files
 secrets.json
+
+# Scraping
+Scraping/screenshot.png

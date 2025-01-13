@@ -1,354 +1,362 @@
 [
     {
-        "name": "Appart'City Classic Blois - Appart Hôtel",
-        "rating": "3,9(575)"
+        "name": "Hôtel Anne de Bretagne",
+        "rating": "4,1(634)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+Anne+de+Bretagne/data=!4m10!3m9!1s0x47e357e28080892f:0x2676d26ab61e23e9!5m2!4m1!1i2!8m2!3d47.5863179!4d1.3266202!16s%2Fg%2F1tj1rcb7!19sChIJL4mAgOJX40cR6SMetmrSdiY?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "ibis Blois Centre Château",
-        "rating": "4,1(761)"
-    },
-    {
-        "name": "Hôtel de France et de Guise",
-        "rating": "3,7(642)"
-    },
-    {
-        "name": "Hôtel Anne de Bretagne",
-        "rating": "4,1(634)"
-    },
-    {
-        "name": "Hôtel Le Pavillon",
-        "rating": "3,4(338)"
+        "rating": "4,1(769)",
+        "href": "https://www.google.fr/maps/place/ibis+Blois+Centre+Ch%C3%A2teau/data=!4m10!3m9!1s0x47e4a81c9384cae1:0xe3663d97633860bc!5m2!4m1!1i2!8m2!3d47.58709!4d1.3314175!16s%2Fg%2F1tdw2s2g!19sChIJ4cqEkxyo5EcRvGA4Y5c9ZuM?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "Hôtel ibis budget Blois Centre",
-        "rating": "3,4(699)"
+        "rating": "3,4(700)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+ibis+budget+Blois+Centre/data=!4m10!3m9!1s0x47e4a81d427d26e9:0x8b14bff7fb780956!5m2!4m1!1i2!8m2!3d47.5872668!4d1.3279752!16s%2Fg%2F1tp2zp5h!19sChIJ6SZ9Qh2o5EcRVgl4-_e_FIs?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "B&B HOTEL Blois Sud Vineuil",
-        "rating": "4,0(1 928)"
+        "rating": "4,0(1 931)",
+        "href": "https://www.google.fr/maps/place/B%26B+HOTEL+Blois+Sud+Vineuil/data=!4m10!3m9!1s0x47e4a8f5dd1c8195:0xfd93775d1bc3ef51!5m2!4m1!1i2!8m2!3d47.5739137!4d1.3701885!16s%2Fg%2F1w6r7krw!19sChIJlYEc3fWo5EcRUe_DG113k_0?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "Appart'City Classic Blois - Appart Hôtel",
-        "rating": "3,9(575)"
+        "rating": "3,9(575)",
+        "href": "https://www.google.fr/maps/place/Appart%27City+Classic+Blois+-+Appart+H%C3%B4tel/data=!4m10!3m9!1s0x47e357e18727d3a9:0x33446ab034acd0!5m2!4m1!1i2!8m2!3d47.5835748!4d1.3248564!16s%2Fg%2F1tj2b94_!19sChIJqdMnh-FX40cR0Kw0sGpEMwA?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "HÔTEL NOCTUEL",
-        "rating": "4,0(524)"
-    },
-    {
-        "name": "LOGIS HOTEL RESTAURANT LE MONARQUE",
-        "rating": "4,1(739)"
-    },
-    {
-        "name": "Ethic Etapes Val De Loire",
-        "rating": "3,9(157)"
-    },
-    {
-        "name": "TourHôtel Blois",
-        "rating": "3,6(252)"
-    },
-    {
-        "name": "B&B HOTEL Blois Nord Vallée Maillard",
-        "rating": "3,7(658)"
-    },
-    {
-        "name": "Hôtel Kyriad Blois-sud Vineuil",
-        "rating": "3,6(663)"
+        "rating": "4,0(524)",
+        "href": "https://www.google.fr/maps/place/H%C3%94TEL+NOCTUEL/data=!4m10!3m9!1s0x47e4a857dbd27879:0x6b0abd28ba6aaeeb!5m2!4m1!1i2!8m2!3d47.566786!4d1.3677514!16s%2Fg%2F1v26ldfh!19sChIJeXjS21eo5EcR665quii9Cms?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "Charme & Calme à 200m du Château",
-        "rating": null
+        "rating": null,
+        "href": "https://www.google.fr/maps/place/Charme+%26+Calme+%C3%A0+200m+du+Ch%C3%A2teau/data=!4m10!3m9!1s0x47e4a96795c60ccb:0xe2acced38d4e0de5!5m2!4m1!1i2!8m2!3d47.5880541!4d1.3313476!16s%2Fg%2F11vc2lk98k!19sChIJywzGlWep5EcR5Q1OjdPOrOI?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Hôtel Le Cosy Blois villebarou",
-        "rating": "3,8(307)"
-    },
-    {
-        "name": "Logis Côté Loire - Auberge Ligérienne",
-        "rating": "4,4(247)"
-    },
-    {
-        "name": "Mercure - Blois Centre",
-        "rating": "4,4(1 517)"
-    },
-    {
-        "name": "Eco Blois",
-        "rating": "3,1(140)"
-    },
-    {
-        "name": "Logis Hôtel le Monarque",
-        "rating": "4,4(48)"
-    },
-    {
-        "name": "Kyriad Blois Nord",
-        "rating": "3,2(564)"
-    },
-    {
-        "name": "Logis Hôtel le Monarque",
-        "rating": "4,4(48)"
-    },
-    {
-        "name": "Hôtel Première Classe Blois",
-        "rating": "3,3(726)"
-    },
-    {
-        "name": "F&M - Les hôtes de Chouzy-sur-Cisse",
-        "rating": "4,6(49)"
-    },
-    {
-        "name": "ibis Styles Blois Centre Gare",
-        "rating": "4,2(905)"
-    },
-    {
-        "name": "Beelodge Hotel Blois Centre",
-        "rating": "4,3(117)"
+        "name": "Hôtel Kyriad Blois-sud Vineuil",
+        "rating": "3,6(663)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+Kyriad+Blois-sud+Vineuil/data=!4m10!3m9!1s0x47e4a861f47a7cd7:0x4ae1499d030e52ad!5m2!4m1!1i2!8m2!3d47.583293!4d1.3681653!16s%2Fg%2F1tg6t_f8!19sChIJ13x69GGo5EcRrVIOA51J4Uo?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "Logis Hôtel Louise de Savoie",
-        "rating": "4,1(383)"
+        "rating": "4,1(383)",
+        "href": "https://www.google.fr/maps/place/Logis+H%C3%B4tel+Louise+de+Savoie/data=!4m10!3m9!1s0x47e357e3b5160a9b:0x9df3110de36bc250!5m2!4m1!1i2!8m2!3d47.5848508!4d1.3247732!16s%2Fg%2F1th86d_d!19sChIJmwoWteNX40cRUMJr4w0R850?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "hotelF1 Blois Nord",
-        "rating": "3,0(502)"
+        "name": "Ethic Etapes Val De Loire",
+        "rating": "3,9(157)",
+        "href": "https://www.google.fr/maps/place/Ethic+Etapes+Val+De+Loire/data=!4m10!3m9!1s0x47e357f9d3451ccf:0x231b7776fb35d9e!5m2!4m1!1i2!8m2!3d47.5961334!4d1.3179672!16s%2Fg%2F1v_z3mq2!19sChIJzxxF0_lX40cRnl2zb3e3MQI?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Hôtel initial by balladins Blois",
-        "rating": "3,5(567)"
+        "name": "TourHôtel Blois",
+        "rating": "3,6(253)",
+        "href": "https://www.google.fr/maps/place/TourH%C3%B4tel+Blois/data=!4m10!3m9!1s0x47e4a7c4c481a111:0xe2b492ace0733adc!5m2!4m1!1i2!8m2!3d47.6088063!4d1.3564811!16s%2Fg%2F1tnmq__c!19sChIJEaGBxMSn5EcR3Dpz4KyStOI?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "Fleur de Loire · Hôtel, Spa & Restaurants",
-        "rating": "4,6(531)"
+        "rating": "4,6(535)",
+        "href": "https://www.google.fr/maps/place/Fleur+de+Loire+%C2%B7+H%C3%B4tel,+Spa+%26+Restaurants/data=!4m10!3m9!1s0x47e4a9f30e32a693:0x80c92139f598af0f!5m2!4m1!1i2!8m2!3d47.5824835!4d1.3376745!16s%2Fg%2F11r9fjkxwl!19sChIJk6YyDvOp5EcRD6-Y9TkhyYA?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "La Tour Beauvoir - Chambre d’hôtes",
-        "rating": "4,4(31)"
-    },
-    {
-        "name": "Escapade Blesoise",
-        "rating": "4,9(17)"
-    },
-    {
-        "name": "Novotel Blois Centre Val de Loire",
-        "rating": "4,0(739)"
-    },
-    {
-        "name": "Quiniere - Entre Lac et Forêt",
-        "rating": "4,3(6)"
-    },
-    {
-        "name": "Chambres d'Hôtes La Maison du Carroir",
-        "rating": "4,7(162)"
-    },
-    {
-        "name": "La Perluette",
-        "rating": "4,9(70)"
-    },
-    {
-        "name": "La Bergerie",
-        "rating": "4,7(96)"
-    },
-    {
-        "name": "Maison des Acrobates",
-        "rating": "5,0(5)"
-    },
-    {
-        "name": "DEMEURE DES CORDELIERS",
-        "rating": "5,0(132)"
-    },
-    {
-        "name": "Maison Loire",
-        "rating": "5,0(26)"
-    },
-    {
-        "name": "La Forge du Roy",
-        "rating": "4,5(58)"
-    },
-    {
-        "name": "La Porte Carmine",
-        "rating": "4,7(26)"
-    },
-    {
-        "name": "Les Terrasses de Blois",
-        "rating": null
-    },
-    {
-        "name": "La Maison d'Ines",
-        "rating": "4,6(7)"
-    },
-    {
-        "name": "Castel de la Comtesse (Hôtel de Saumery)",
-        "rating": "5,0(10)"
+        "name": "Hôtel Le Cosy Blois villebarou",
+        "rating": "3,8(308)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+Le+Cosy+Blois+villebarou/data=!4m10!3m9!1s0x47e35817c7f609db:0xe2315ec25280d0b1!5m2!4m1!1i2!8m2!3d47.6117466!4d1.3077553!16s%2Fg%2F1wd3vbm4!19sChIJ2wn2xxdY40cRsdCAUsJeMeI?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "Best Western Hôtel Blois Château",
-        "rating": "3,9(293)"
-    },
-    {
-        "name": "CRJS • Auberge de Jeunesse",
-        "rating": "3,6(173)"
-    },
-    {
-        "name": "Chez Bruno et Françoise",
-        "rating": "3,4(5)"
-    },
-    {
-        "name": "Hotel du Bellay",
-        "rating": "3,6(57)"
-    },
-    {
-        "name": "Au 16 Place Saint Louis",
-        "rating": "4,8(39)"
-    },
-    {
-        "name": "Hôtel First Inn Blois",
-        "rating": "4,1(803)"
-    },
-    {
-        "name": "Moulin de Vineuil",
-        "rating": "4,9(59)"
+        "rating": "3,9(295)",
+        "href": "https://www.google.fr/maps/place/Best+Western+H%C3%B4tel+Blois+Ch%C3%A2teau/data=!4m10!3m9!1s0x47e357e24fd5bb4d:0x4f138b321ebfd77f!5m2!4m1!1i2!8m2!3d47.5854179!4d1.3246222!16s%2Fg%2F1v_z85vl!19sChIJTbvVT-JX40cRf9e_HjKLE08?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "Hôtel Saint Jacques",
-        "rating": "3,9(231)"
+        "rating": "3,9(231)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+Saint+Jacques/data=!4m10!3m9!1s0x47e357e235102035:0xf2a7a772f1ac27a3!5m2!4m1!1i2!8m2!3d47.5847662!4d1.324548!16s%2Fg%2F1thqg0_y!19sChIJNSAQNeJX40cRoyes8XKnp_I?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Chez Pauline et Sébastien",
-        "rating": "4,7(12)"
+        "name": "Chambres d'Hôtes La Maison du Carroir",
+        "rating": "4,7(162)",
+        "href": "https://www.google.fr/maps/place/Chambres+d%27H%C3%B4tes+La+Maison+du+Carroir/data=!4m10!3m9!1s0x47e357e2b09edc59:0x84a5b1c785936bc5!5m2!4m1!1i2!8m2!3d47.5883846!4d1.3264386!16s%2Fg%2F12hnv43_w!19sChIJWdyesOJX40cRxWuThcexpYQ?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Logis Hôtel le Médicis",
-        "rating": "4,3(316)"
+        "name": "Eco Blois",
+        "rating": "3,1(140)",
+        "href": "https://www.google.fr/maps/place/Eco+Blois/data=!4m10!3m9!1s0x47e4a8f5e00a7a29:0x5c0991a9baf30808!5m2!4m1!1i2!8m2!3d47.573491!4d1.3701914!16s%2Fg%2F1pp2t_byk!19sChIJKXoK4PWo5EcRCAjzuqmRCVw?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Le clos des feuillants",
-        "rating": "5,0(4)"
+        "name": "Beelodge Hotel Blois Centre",
+        "rating": "4,3(121)",
+        "href": "https://www.google.fr/maps/place/Beelodge+Hotel+Blois+Centre/data=!4m10!3m9!1s0x47e357c1fb640ca7:0x5c61328c76a590b2!5m2!4m1!1i2!8m2!3d47.586055!4d1.325019!16s%2Fg%2F11y3105ydd!19sChIJpwxk-8FX40cRspCldowyYVw?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Le Clos des Péziers - Maison d'hôtes aux portes de Blois Chambord - Une parenthèse de charme au coeur du Val de Loire",
-        "rating": "5,0(64)"
+        "name": "Mercure - Blois Centre",
+        "rating": "4,4(1 528)",
+        "href": "https://www.google.fr/maps/place/Mercure+-+Blois+Centre/data=!4m10!3m9!1s0x47e4a80fd785a7db:0xcf6f4af589e8c278!5m2!4m1!1i2!8m2!3d47.5893227!4d1.3400294!16s%2Fg%2F1tdvp131!19sChIJ26eF1w-o5EcReMLoifVKb88?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Les Suites de Jade",
-        "rating": "4,8(4)"
+        "name": "CRJS • Auberge de Jeunesse",
+        "rating": "3,6(173)",
+        "href": "https://www.google.fr/maps/place/CRJS+%E2%80%A2+Auberge+de+Jeunesse/data=!4m10!3m9!1s0x47e357b8d981cdc7:0x100a34f679f1f7d3!5m2!4m1!1i2!8m2!3d47.5733994!4d1.3034245!16s%2Fg%2F1tfx45sw!19sChIJx82B2bhX40cR0_fxefY0ChA?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Le Plessis BBB",
-        "rating": "4,8(43)"
+        "name": "Mercure - Blois Centre",
+        "rating": "4,4(1 528)",
+        "href": "https://www.google.fr/maps/place/Mercure+-+Blois+Centre/data=!4m10!3m9!1s0x47e4a80fd785a7db:0xcf6f4af589e8c278!5m2!4m1!1i2!8m2!3d47.5893227!4d1.3400294!16s%2Fg%2F1tdvp131!19sChIJ26eF1w-o5EcReMLoifVKb88?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "La Maison De L'Arrou",
-        "rating": "4,5(4)"
+        "name": "Hôtel initial by balladins Blois",
+        "rating": "3,5(567)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+initial+by+balladins+Blois/data=!4m10!3m9!1s0x47e4a7f187e1a585:0x4fbec999d238ac01!5m2!4m1!1i2!8m2!3d47.6134482!4d1.3364816!16s%2Fg%2F1tqyds_5!19sChIJhaXhh_Gn5EcRAaw40pnJvk8?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Hôtel du Lys",
-        "rating": "4,3(3)"
+        "name": "Ikar - Fasthôtel Blois",
+        "rating": "3,3(599)",
+        "href": "https://www.google.fr/maps/place/Ikar+-+Fasth%C3%B4tel+Blois/data=!4m10!3m9!1s0x47e4a8f8da1486ff:0xbe8657c7b51731cd!5m2!4m1!1i2!8m2!3d47.563807!4d1.371544!16s%2Fg%2F1tfdcrmq!19sChIJ_4YU2vio5EcRzTEXtcdXhr4?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Résidence CAP WEST \"Blois\"",
-        "rating": "3,7(28)"
+        "name": "B&B HOTEL Blois Nord Vallée Maillard",
+        "rating": "3,7(662)",
+        "href": "https://www.google.fr/maps/place/B%26B+HOTEL+Blois+Nord+Vall%C3%A9e+Maillard/data=!4m10!3m9!1s0x47e4a7f732997001:0xf3770ef59021d55!5m2!4m1!1i2!8m2!3d47.6099916!4d1.3331762!16s%2Fg%2F1tl_k_z_!19sChIJAXCZMven5EcRVR0CWe9wNw8?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Le Relais de la Tour - Restaurant gastronomique & Chambres d'hôtes de charme",
-        "rating": "4,7(144)"
+        "name": "Kyriad Blois Nord",
+        "rating": "3,2(565)",
+        "href": "https://www.google.fr/maps/place/Kyriad+Blois+Nord/data=!4m10!3m9!1s0x47e4a7f6a393ee6b:0xa1fb84bebdba0abf!5m2!4m1!1i2!8m2!3d47.612517!4d1.3334806!16s%2Fg%2F1tcywqkl!19sChIJa-6To_an5EcRvwq6vb6E-6E?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Osmose Center",
-        "rating": "4,6(14)"
+        "name": "Escapade Blesoise",
+        "rating": "4,9(17)",
+        "href": "https://www.google.fr/maps/place/Escapade+Blesoise/data=!4m10!3m9!1s0x47e357372b3cd8b5:0x4db24e6273875cd6!5m2!4m1!1i2!8m2!3d47.5824737!4d1.3171282!16s%2Fg%2F11ldm4ss_g!19sChIJtdg8KzdX40cR1lyHc2JOsk0?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Hôtel Blois / Saint-Gervais",
-        "rating": "3,0(234)"
+        "name": "Hôtel Première Classe Blois",
+        "rating": "3,3(726)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+Premi%C3%A8re+Classe+Blois/data=!4m10!3m9!1s0x47e4a7f6a18ac715:0x7a84c2cab84100d5!5m2!4m1!1i2!8m2!3d47.612506!4d1.33193!16s%2Fg%2F1tdzkw0l!19sChIJFceKofan5EcR1QBBuMrChHo?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "LOGIS HOTEL RESTAURANT LE MONARQUE",
+        "rating": "4,1(745)",
+        "href": "https://www.google.fr/maps/place/LOGIS+HOTEL+RESTAURANT+LE+MONARQUE/data=!4m10!3m9!1s0x47e4a8031fceb559:0xf7e347a612b4b296!5m2!4m1!1i2!8m2!3d47.5888816!4d1.3314057!16s%2Fg%2F1thgg9yv!19sChIJWbXOHwOo5EcRlrK0EqZH4_c?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "F&M - Les hôtes de Chouzy-sur-Cisse",
+        "rating": "4,6(49)",
+        "href": "https://www.google.fr/maps/place/F%26M+-+Les+h%C3%B4tes+de+Chouzy-sur-Cisse/data=!4m10!3m9!1s0x47e353b781ab9673:0x74ac22584f3f55ae!5m2!4m1!1i2!8m2!3d47.5145819!4d1.2269222!16s%2Fg%2F11ghtq4gys!19sChIJc5argbdT40cRrlU_T1girHQ?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "ibis Styles Blois Centre Gare",
+        "rating": "4,2(908)",
+        "href": "https://www.google.fr/maps/place/ibis+Styles+Blois+Centre+Gare/data=!4m10!3m9!1s0x47e357e159bbd2f1:0x1f4aac791329dc01!5m2!4m1!1i2!8m2!3d47.5834833!4d1.3223621!16s%2Fg%2F1v2kwqtf!19sChIJ8dK7WeFX40cRAdwpE3msSh8?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "hotelF1 Blois Nord",
+        "rating": "2,9(503)",
+        "href": "https://www.google.fr/maps/place/hotelF1+Blois+Nord/data=!4m10!3m9!1s0x47e35809dc7af241:0xabe9781e650ac998!5m2!4m1!1i2!8m2!3d47.6114666!4d1.3272895!16s%2Fg%2F1vxfzg8j!19sChIJQfJ63AlY40cRmMkKZR546as?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "Brit Hotel Blois – Le Préma",
-        "rating": "3,9(588)"
+        "rating": "3,9(590)",
+        "href": "https://www.google.fr/maps/place/Brit+Hotel+Blois+%E2%80%93+Le+Pr%C3%A9ma/data=!4m10!3m9!1s0x47e4a7f236adf597:0x93de3b912ad20908!5m2!4m1!1i2!8m2!3d47.6138516!4d1.335423!16s%2Fg%2F1tfx45wj!19sChIJl_WtNvKn5EcRCAnSKpE73pM?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Entre Loire et Sologne",
-        "rating": "4,9(29)"
+        "name": "Novotel Blois Centre Val de Loire",
+        "rating": "3,9(743)",
+        "href": "https://www.google.fr/maps/place/Novotel+Blois+Centre+Val+de+Loire/data=!4m10!3m9!1s0x47e4a805a4c68e79:0xa835e9b72d90616d!5m2!4m1!1i2!8m2!3d47.5916151!4d1.3360115!16s%2Fg%2F1tj2h5dq!19sChIJeY7GpAWo5EcRbWGQLbfpNag?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Valoria Résidence Hôtelière",
-        "rating": "4,0(74)"
+        "name": "Quiniere - Entre Lac et Forêt",
+        "rating": "4,3(6)",
+        "href": "https://www.google.fr/maps/place/Quiniere+-+Entre+Lac+et+For%C3%AAt/data=!4m10!3m9!1s0x47e357be15c2be57:0xe4acb2a614457e42!5m2!4m1!1i2!8m2!3d47.5778597!4d1.3013948!16s%2Fg%2F11r2cw7vb0!19sChIJV77CFb5X40cRQn5FFKayrOQ?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "CHEZ MARLYSE",
-        "rating": "4,5(6)"
+        "name": "Le Relais de la Tour - Restaurant gastronomique & Chambres d'hôtes de charme",
+        "rating": "4,7(146)",
+        "href": "https://www.google.fr/maps/place/Le+Relais+de+la+Tour+-+Restaurant+gastronomique+%26+Chambres+d%27h%C3%B4tes+de+charme/data=!4m10!3m9!1s0x47e4a7c503bd7095:0x12eaa5fcbe03cf8a!5m2!4m1!1i2!8m2!3d47.610376!4d1.3586396!16s%2Fg%2F1td6rjgq!19sChIJlXC9A8Wn5EcRis8Dvvyl6hI?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Chambre d'hôte - A la Lettre Thé",
-        "rating": "4,8(78)"
+        "name": "Logis Côté Loire - Auberge Ligérienne",
+        "rating": "4,4(246)",
+        "href": "https://www.google.fr/maps/place/Logis+C%C3%B4t%C3%A9+Loire+-+Auberge+Lig%C3%A9rienne/data=!4m10!3m9!1s0x47e4a81ebe40a0cd:0x77fd1963f32901c!5m2!4m1!1i2!8m2!3d47.582773!4d1.3308136!16s%2Fg%2F11c2pkm52r!19sChIJzaBAvh6o5EcRHJAyP5bRfwc?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Gîte \"L'Entre-Temps\" (10 personnes) - château de St Gervais",
-        "rating": "4,8(6)"
+        "name": "Le Clos des Péziers - Maison d'hôtes aux portes de Blois Chambord - Une parenthèse de charme au coeur du Val de Loire",
+        "rating": "5,0(64)",
+        "href": "https://www.google.fr/maps/place/Le+Clos+des+P%C3%A9ziers+-+Maison+d%27h%C3%B4tes+aux+portes+de+Blois+Chambord+-+Une+parenth%C3%A8se+de+charme+au+coeur+du+Val+de+Loire/data=!4m10!3m9!1s0x47e4a8ec229fea63:0x602483e7962ec30f!5m2!4m1!1i2!8m2!3d47.5738021!4d1.3833757!16s%2Fg%2F11c6rh6p0_!19sChIJY-qfIuyo5EcRD8MulueDJGA?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "La Chambre De Marie",
-        "rating": "4,3(7)"
+        "name": "La Perluette",
+        "rating": "4,9(71)",
+        "href": "https://www.google.fr/maps/place/La+Perluette/data=!4m10!3m9!1s0x47e4a81ef1fc5811:0xdaf7d1f0dee4106d!5m2!4m1!1i2!8m2!3d47.5822274!4d1.3302669!16s%2Fg%2F11f0krjmg7!19sChIJEVj88R6o5EcRbRDk3vDR99o?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Le Clos des Ormeaux",
-        "rating": "4,9(39)"
+        "name": "Maison des Acrobates",
+        "rating": "5,0(5)",
+        "href": "https://www.google.fr/maps/place/Maison+des+Acrobates/data=!4m10!3m9!1s0x47e4a9058c2c55b5:0x702406cf80d447bf!5m2!4m1!1i2!8m2!3d47.5880933!4d1.3349547!16s%2Fg%2F11ssd44s65!19sChIJtVUsjAWp5EcRv0fUgM8GJHA?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "La maison du Closier",
-        "rating": "4,9(12)"
+        "name": "Hôtel de France et de Guise",
+        "rating": "3,7(644)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+de+France+et+de+Guise/data=!4m10!3m9!1s0x47e4a81ce54421b1:0xda27014eb191d083!5m2!4m1!1i2!8m2!3d47.5869562!4d1.3303969!16s%2Fg%2F1td0fs_3!19sChIJsSFE5Ryo5EcRg9CRsU4BJ9o?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Gîte de charme « La Source »",
-        "rating": "4,8(20)"
+        "name": "Hôtel de France et de Guise",
+        "rating": "3,7(644)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+de+France+et+de+Guise/data=!4m10!3m9!1s0x47e4a81ce54421b1:0xda27014eb191d083!5m2!4m1!1i2!8m2!3d47.5869562!4d1.3303969!16s%2Fg%2F1td0fs_3!19sChIJsSFE5Ryo5EcRg9CRsU4BJ9o?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Le Manoir du Vieux Cèdre",
-        "rating": "5,0(2)"
+        "name": "DEMEURE DES CORDELIERS",
+        "rating": "5,0(132)",
+        "href": "https://www.google.fr/maps/place/DEMEURE+DES+CORDELIERS/data=!4m10!3m9!1s0x47e4a96925793843:0x97373483ace4711f!5m2!4m1!1i2!8m2!3d47.5888474!4d1.3340746!16s%2Fg%2F11nyvlxc92!19sChIJQzh5JWmp5EcRH3HkrIM0N5c?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Hôtel La Renaissance",
-        "rating": "3,4(9)"
+        "name": "Maison Loire",
+        "rating": "5,0(26)",
+        "href": "https://www.google.fr/maps/place/Maison+Loire/data=!4m10!3m9!1s0x47e3572c271da6d5:0xb2bdb7e5fca0d009!5m2!4m1!1i2!8m2!3d47.5824915!4d1.32495!16s%2Fg%2F11t4b73p41!19sChIJ1aYdJyxX40cRCdCg_OW3vbI?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Restaurant Kyriad Blois Nord",
-        "rating": "3,5(32)"
+        "name": "Hôtel Le Pavillon",
+        "rating": "3,4(338)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+Le+Pavillon/data=!4m10!3m9!1s0x47e4a810c92cfba5:0x82e4b97e158fca18!5m2!4m1!1i2!8m2!3d47.584089!4d1.339444!16s%2Fg%2F1xcbny17!19sChIJpfssyRCo5EcRGMqPFX655II?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Residence La Franciade",
-        "rating": null
+        "name": "Chambres d'hôtes aux portes de CHAMBORD",
+        "rating": "5,0(4)",
+        "href": "https://www.google.fr/maps/place/Chambres+d%27h%C3%B4tes+aux+portes+de+CHAMBORD/data=!4m10!3m9!1s0x47e4a60f753eaaab:0xcb66aa349c672d5f!5m2!4m1!1i2!8m2!3d47.608595!4d1.4047439!16s%2Fg%2F11jsk4jy5v!19sChIJq6o-dQ-m5EcRXy1nnDSqZss?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Au B'honneur de Blois",
-        "rating": null
+        "name": "La Forge du Roy",
+        "rating": "4,5(58)",
+        "href": "https://www.google.fr/maps/place/La+Forge+du+Roy/data=!4m10!3m9!1s0x47e4a953f17c6ffd:0x66326a910dec7c71!5m2!4m1!1i2!8m2!3d47.5862458!4d1.3315644!16s%2Fg%2F11nm_yzv9t!19sChIJ_W988VOp5EcRcXzsDZFqMmY?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "La Renaissance",
-        "rating": "5,0(13)"
+        "name": "La Porte Carmine",
+        "rating": "4,7(26)",
+        "href": "https://www.google.fr/maps/place/La+Porte+Carmine/data=!4m10!3m9!1s0x47e4a81ad550ea1d:0x6efde5313be802bb!5m2!4m1!1i2!8m2!3d47.5885489!4d1.3351626!16s%2Fg%2F11jf5jf8fk!19sChIJHepQ1Rqo5EcRuwLoOzHl_W4?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "La lizardiere",
-        "rating": null
+        "name": "Les Terrasses de Blois",
+        "rating": null,
+        "href": "https://www.google.fr/maps/place/Les+Terrasses+de+Blois/data=!4m10!3m9!1s0x47e4a927dd2d3c23:0xde17fdf767e4a161!5m2!4m1!1i2!8m2!3d47.5842706!4d1.3404795!16s%2Fg%2F11j_r0hx1m!19sChIJIzwt3Sep5EcRYaHkZ_f9F94?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Chambre D'hote",
-        "rating": "4,0(9)"
+        "name": "La Tour Beauvoir - Chambre d’hôtes",
+        "rating": "4,4(31)",
+        "href": "https://www.google.fr/maps/place/La+Tour+Beauvoir+-+Chambre+d%E2%80%99h%C3%B4tes/data=!4m10!3m9!1s0x47e4a81caada1113:0x5240be4d36c8c29a!5m2!4m1!1i2!8m2!3d47.5885788!4d1.3320494!16s%2Fg%2F11bbxr6zrp!19sChIJExHaqhyo5EcRmsLINk2-QFI?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Gite Du Clos Notre Dame",
-        "rating": "5,0(1)"
+        "name": "La Maison d'Ines",
+        "rating": "4,6(7)",
+        "href": "https://www.google.fr/maps/place/La+Maison+d%27Ines/data=!4m10!3m9!1s0x47e4a81ab9932d2d:0xf10b76e16440f8d8!5m2!4m1!1i2!8m2!3d47.5879496!4d1.3366441!16s%2Fg%2F1tdfy028!19sChIJLS2TuRqo5EcR2PhAZOF2C_E?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "LE THEIL",
-        "rating": null
+        "name": "Castel de la Comtesse (Hôtel de Saumery)",
+        "rating": "5,0(10)",
+        "href": "https://www.google.fr/maps/place/Castel+de+la+Comtesse+%28H%C3%B4tel+de+Saumery%29/data=!4m10!3m9!1s0x47e4a81b2856aaab:0xfddda8d31164edc7!5m2!4m1!1i2!8m2!3d47.5881028!4d1.3350109!16s%2Fg%2F11gpfznq7s!19sChIJq6pWKBuo5EcRx-1kEdOo3f0?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Chambres d'hôtes L'Hermine",
-        "rating": null
+        "name": "Chez Bruno et Françoise",
+        "rating": "3,4(5)",
+        "href": "https://www.google.fr/maps/place/Chez+Bruno+et+Fran%C3%A7oise/data=!4m10!3m9!1s0x47e4a81c72be3567:0xc45cf43274aea9d9!5m2!4m1!1i2!8m2!3d47.5849572!4d1.3318982!16s%2Fg%2F11b73v6fkf!19sChIJZzW-chyo5EcR2amudDL0XMQ?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Hotel du Bellay",
+        "rating": "3,6(57)",
+        "href": "https://www.google.fr/maps/place/Hotel+du+Bellay/data=!4m10!3m9!1s0x47e4a80332b6d8c1:0x2b9ff33822ad5e2f!5m2!4m1!1i2!8m2!3d47.5886591!4d1.3306333!16s%2Fg%2F1v8x1gy1!19sChIJwdi2MgOo5EcRL16tIjjznys?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Au 16 Place Saint Louis",
+        "rating": "4,8(39)",
+        "href": "https://www.google.fr/maps/place/Au+16+Place+Saint+Louis/data=!4m10!3m9!1s0x47e4a8052d291269:0xd09bfb2321592329!5m2!4m1!1i2!8m2!3d47.588601!4d1.335646!16s%2Fg%2F1tfhyww_!19sChIJaRIpLQWo5EcRKSNZISP7m9A?authuser=0&hl=fr&rclk=1"
     },
     {
         "name": "Agréable chambre d'hôtes dans maison XVIIIe",
-        "rating": null
+        "rating": null,
+        "href": "https://www.google.fr/maps/place/Agr%C3%A9able+chambre+d%27h%C3%B4tes+dans+maison+XVIIIe/data=!4m10!3m9!1s0x47e4a8ed07c3ffff:0xf56fbbbf891a50b7!5m2!4m1!1i2!8m2!3d47.5758397!4d1.3813453!16s%2Fg%2F11t6h4krz9!19sChIJ___DB-2o5EcRt1Aaib-7b_U?authuser=0&hl=fr&rclk=1"
     },
     {
-        "name": "Chambres de charme les Grives La Chaussée Saint-Victor",
-        "rating": "4,0(1)"
+        "name": "Moulin de Vineuil",
+        "rating": "4,9(59)",
+        "href": "https://www.google.fr/maps/place/Moulin+de+Vineuil/data=!4m10!3m9!1s0x47e4a9d07b1d22f3:0xbac830ece693f8fc!5m2!4m1!1i2!8m2!3d47.5777822!4d1.3833369!16s%2Fg%2F11h8h86cwz!19sChIJ8yIde9Cp5EcR_PiT5uwwyLo?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Chez Pauline et Sébastien",
+        "rating": "4,7(12)",
+        "href": "https://www.google.fr/maps/place/Chez+Pauline+et+S%C3%A9bastien/data=!4m10!3m9!1s0x47e4a988ae660851:0x103fec18848e1492!5m2!4m1!1i2!8m2!3d47.5670192!4d1.3492923!16s%2Fg%2F11khk4z3gd!19sChIJUQhmroip5EcRkhSOhBjsPxA?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Logis Hôtel le Médicis",
+        "rating": "4,3(316)",
+        "href": "https://www.google.fr/maps/place/Logis+H%C3%B4tel+le+M%C3%A9dicis/data=!4m10!3m9!1s0x47e357e76b758baf:0xdd26da6501077a53!5m2!4m1!1i2!8m2!3d47.584378!4d1.3174519!16s%2Fg%2F1tv23fq6!19sChIJr4t1a-dX40cRU3oHAWXaJt0?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Le clos des feuillants",
+        "rating": "5,0(4)",
+        "href": "https://www.google.fr/maps/place/Le+clos+des+feuillants/data=!4m10!3m9!1s0x47e4a80f01098881:0xe71cac12aac6aa64!5m2!4m1!1i2!8m2!3d47.5911788!4d1.340238!16s%2Fg%2F1tf9mk0q!19sChIJgYgJAQ-o5EcRZKrGqhKsHOc?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Les Suites de Jade",
+        "rating": "4,8(4)",
+        "href": "https://www.google.fr/maps/place/Les+Suites+de+Jade/data=!4m10!3m9!1s0x47e4a81ca772ac0d:0xf18e8f0664c6be57!5m2!4m1!1i2!8m2!3d47.5878589!4d1.332342!16s%2Fg%2F11cn6nk3xb!19sChIJDaxypxyo5EcRV77GZAaPjvE?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Le Plessis BBB",
+        "rating": "4,8(43)",
+        "href": "https://www.google.fr/maps/place/Le+Plessis+BBB/data=!4m10!3m9!1s0x47e357b86405785d:0xd9ebf0924366351d!5m2!4m1!1i2!8m2!3d47.5713879!4d1.3043199!16s%2Fg%2F1tlmmm8s!19sChIJXXgFZLhX40cRHTVmQ5Lw69k?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "La Maison De L'Arrou",
+        "rating": "4,5(4)",
+        "href": "https://www.google.fr/maps/place/La+Maison+De+L%27Arrou/data=!4m10!3m9!1s0x47e357fad5590e4d:0x67bf988b94c46ce8!5m2!4m1!1i2!8m2!3d47.5888397!4d1.3192731!16s%2Fg%2F11b6gjhxvq!19sChIJTQ5Z1fpX40cR6GzElIuYv2c?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Résidence CAP WEST \"Blois\"",
+        "rating": "3,7(28)",
+        "href": "https://www.google.fr/maps/place/R%C3%A9sidence+CAP+WEST+%22Blois%22/data=!4m10!3m9!1s0x47e357f331291267:0xeb7d285aed094ab6!5m2!4m1!1i2!8m2!3d47.5794128!4d1.3201625!16s%2Fg%2F11rd2wpyss!19sChIJZxIpMfNX40cRtkoJ7Voofes?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Hôtel du Lys",
+        "rating": "4,3(3)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+du+Lys/data=!4m10!3m9!1s0x47e4a8035072b715:0x8a3764f837e89ad3!5m2!4m1!1i2!8m2!3d47.5890922!4d1.3319175!16s%2Fg%2F1ts_5x49!19sChIJFbdyUAOo5EcR05roN_hkN4o?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Osmose Center",
+        "rating": "4,6(14)",
+        "href": "https://www.google.fr/maps/place/Osmose+Center/data=!4m10!3m9!1s0x47e4a8485adaaaab:0xc4ec7c4f78c3fb1c!5m2!4m1!1i2!8m2!3d47.5730589!4d1.3552829!16s%2Fg%2F11h1hvhnzp!19sChIJq6raWkio5EcRHPvDeE987MQ?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Hôtel Blois / Saint-Gervais",
+        "rating": "3,0(234)",
+        "href": "https://www.google.fr/maps/place/H%C3%B4tel+Blois+%2F+Saint-Gervais/data=!4m10!3m9!1s0x47e4a8f99ddb27a3:0xffbb673af6eefb26!5m2!4m1!1i2!8m2!3d47.566336!4d1.3719029!16s%2Fg%2F1tf_mlrl!19sChIJoyfbnfmo5EcRJvvu9jpnu_8?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Entre Loire et Sologne",
+        "rating": "4,9(29)",
+        "href": "https://www.google.fr/maps/place/Entre+Loire+et+Sologne/data=!4m10!3m9!1s0x47e4a84fcde937d3:0xd2d01ad349412dff!5m2!4m1!1i2!8m2!3d47.5664565!4d1.3570739!16s%2Fg%2F11j9k_vhvr!19sChIJ0zfpzU-o5EcR_y1BSdMa0NI?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Valoria Résidence Hôtelière",
+        "rating": "4,0(74)",
+        "href": "https://www.google.fr/maps/place/Valoria+R%C3%A9sidence+H%C3%B4teli%C3%A8re/data=!4m10!3m9!1s0x47e3580f975ae47b:0xd59f1f31ddb18556!5m2!4m1!1i2!8m2!3d47.6092892!4d1.3194969!16s%2Fg%2F11c2p_yszn!19sChIJe-Ralw9Y40cRVoWx3TEfn9U?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "CHEZ MARLYSE",
+        "rating": "4,5(6)",
+        "href": "https://www.google.fr/maps/place/CHEZ+MARLYSE/data=!4m10!3m9!1s0x47e357b9b4cb7071:0x2912100ccc9b400b!5m2!4m1!1i2!8m2!3d47.5706678!4d1.3028153!16s%2Fg%2F11fp4j09vc!19sChIJcXDLtLlX40cRC0CbzAwQEik?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Chambre d'hôte - A la Lettre Thé",
+        "rating": "4,8(78)",
+        "href": "https://www.google.fr/maps/place/Chambre+d%27h%C3%B4te+-+A+la+Lettre+Th%C3%A9/data=!4m10!3m9!1s0x47e350eb84edf1cd:0x6d4489cc82a3464c!5m2!4m1!1i2!8m2!3d47.577164!4d1.2169166!16s%2Fg%2F11g0mv97xb!19sChIJzfHthOtQ40cRTEajgsyJRG0?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "Gîte \"L'Entre-Temps\" (10 personnes) - château de St Gervais",
+        "rating": "4,8(6)",
+        "href": "https://www.google.fr/maps/place/G%C3%AEte+%22L%27Entre-Temps%22+%2810+personnes%29+-+ch%C3%A2teau+de+St+Gervais/data=!4m10!3m9!1s0x47e4a9c66290a459:0xfca2d2686c1f0382!5m2!4m1!1i2!8m2!3d47.5704894!4d1.3534305!16s%2Fg%2F11gtzw2plq!19sChIJWaSQYsap5EcRggMfbGjSovw?authuser=0&hl=fr&rclk=1"
+    },
+    {
+        "name": "La Chambre De Marie",
+        "rating": "4,3(7)",
+        "href": "https://www.google.fr/maps/place/La+Chambre+De+Marie/data=!4m10!3m9!1s0x47e4a7e3523f10bd:0xc9af1c0de18a6fc0!5m2!4m1!1i2!8m2!3d47.6028173!4d1.3387171!16s%2Fg%2F11b6hw5t54!19sChIJvRA_UuOn5EcRwG-K4Q0cr8k?authuser=0&hl=fr&rclk=1"
     }
 ]
